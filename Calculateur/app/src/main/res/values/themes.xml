@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Calculateur" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary_dark</item>
+
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
+
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Widget.App.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/primary_dark</item>
+        <item name="titleTextStyle">@style/TextStyle.ActionBar</item>
+    </style>
+
+    <style name="TextStyle.ActionBar" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Calculateur" parent="Base.Theme.Calculateur" />
+</resources>
